@@ -25,7 +25,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 		g_ProcessId = lSemaphore + 1;
 		InHook();
 		g_hModule = hModule;
-		abc
+		
 		break;
 	}
     case DLL_THREAD_ATTACH:
