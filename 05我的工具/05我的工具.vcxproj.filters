@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="02提升权限">
+      <UniqueIdentifier>{f81b15e5-57e6-494e-b77b-e877b0681751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01主窗口">
+      <UniqueIdentifier>{93fe7e10-537e-4654-bb62-8394d026f9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03取名窗口">
+      <UniqueIdentifier>{a500c52c-acea-43b8-b423-e1ae76e04b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04释放资源">
+      <UniqueIdentifier>{dbfa0259-37db-4efa-a3dd-deccd4acbf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05制作名称">
+      <UniqueIdentifier>{35c4205d-9a3d-4a39-b118-9a2f220f599c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06关机和游戏窗口">
+      <UniqueIdentifier>{2b5d7299-4bfa-4236-aed0-625c268fbaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07贪吃蛇">
+      <UniqueIdentifier>{8dc469b1-ef4a-4194-a570-1eddcb711364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08黑客工具窗口">
+      <UniqueIdentifier>{39db0b73-5799-463a-b95e-4101f5da6832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10注入与卸载DLL代码">
+      <UniqueIdentifier>{f7ab991c-c5a0-45d3-87e2-145fe97f38ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11自动启动窗口">
+      <UniqueIdentifier>{7fc02cee-a43c-4e48-8c7d-ff1f5b87b0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12自动启动代码">
+      <UniqueIdentifier>{1d73b3ba-e420-464c-8372-31ae7ded02bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13提权窗口">
+      <UniqueIdentifier>{c2488097-4193-4e4c-845e-f0f6c6797cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14VS清理">
+      <UniqueIdentifier>{1894c844-805f-4f9f-8f2d-327fb99cbaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15隐藏伪装代码">
+      <UniqueIdentifier>{32b25d7a-fceb-40d8-914b-8f7148da0e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16加壳">
+      <UniqueIdentifier>{f6419a27-f84c-4c2a-a659-a2b3a749a6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09注入与隐藏窗口">
+      <UniqueIdentifier>{81f9d5d8-b9c4-4c31-9533-0365be187a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="19加密Hash窗口">
+      <UniqueIdentifier>{cece3e83-cecc-449d-96df-f2dae1128af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20按键记录窗口">
+      <UniqueIdentifier>{2c8bd3d0-fbf9-4a1a-be9b-84ec1c70f15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="17技术功能窗口">
+      <UniqueIdentifier>{40d5ee7b-ae51-4f68-bd0c-44892751f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18技术功能部分代码">
+      <UniqueIdentifier>{95c368c7-457e-4b10-8228-518cefdf3ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21文件监控窗口">
+      <UniqueIdentifier>{14955b64-808b-45b7-8e80-66f7dccb6426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="22远控CMD客户端">
+      <UniqueIdentifier>{3570b2cf-845a-42f8-89b4-698e129154de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="23套接字">
+      <UniqueIdentifier>{e314dd87-9afd-41f5-92e3-7ae90575dcff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="05我的工具.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="05我的工具Dlg.h">
+      <Filter>01主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjustPrivileges.h">
+      <Filter>02提升权限</Filter>
+    </ClInclude>
+    <ClInclude Include="NovelName.h">
+      <Filter>03取名窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFree.h">
+      <Filter>04释放资源</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>05制作名称</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeName.h">
+      <Filter>05制作名称</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProGame.h">
+      <Filter>06关机和游戏窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnake.h">
+      <Filter>07贪吃蛇</Filter>
+    </ClInclude>
+    <ClInclude Include="COptiClear.h">
+      <Filter>08黑客工具窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectDll.h">
+      <Filter>09注入与隐藏窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectCode.h">
+      <Filter>10注入与卸载DLL代码</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoRun.h">
+      <Filter>11自动启动窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoRunCode.h">
+      <Filter>12自动启动代码</Filter>
+    </ClInclude>
+    <ClInclude Include="Privileges.h">
+      <Filter>13提权窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="VSClear.h">
+      <Filter>14VS清理</Filter>
+    </ClInclude>
+    <ClInclude Include="HidePretend.h">
+      <Filter>15隐藏伪装代码</Filter>
+    </ClInclude>
+    <ClInclude Include="aplib.h">
+      <Filter>16加壳</Filter>
+    </ClInclude>
+    <ClInclude Include="Share.h">
+      <Filter>16加壳</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherFunction.h">
+      <Filter>17技术功能窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherCode.h">
+      <Filter>18技术功能部分代码</Filter>
+    </ClInclude>
+    <ClInclude Include="HashAndCrypt.h">
+      <Filter>19加密Hash窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCord.h">
+      <Filter>20按键记录窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMonitor.h">
+      <Filter>21文件监控窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteCmd.h">
+      <Filter>22远控CMD客户端</Filter>
+    </ClInclude>
+    <ClInclude Include="MySocket.h">
+      <Filter>23套接字</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="05我的工具.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05我的工具Dlg.cpp">
+      <Filter>01主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustPrivileges.cpp">
+      <Filter>02提升权限</Filter>
+    </ClCompile>
+    <ClCompile Include="NovelName.cpp">
+      <Filter>03取名窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceFree.cpp">
+      <Filter>04释放资源</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeName.cpp">
+      <Filter>05制作名称</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProGame.cpp">
+      <Filter>06关机和游戏窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnake.cpp">
+      <Filter>07贪吃蛇</Filter>
+    </ClCompile>
+    <ClCompile Include="COptiClear.cpp">
+      <Filter>08黑客工具窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectDll.cpp">
+      <Filter>09注入与隐藏窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectCode.cpp">
+      <Filter>10注入与卸载DLL代码</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoRun.cpp">
+      <Filter>11自动启动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoRunCode.cpp">
+      <Filter>12自动启动代码</Filter>
+    </ClCompile>
+    <ClCompile Include="Privileges.cpp">
+      <Filter>13提权窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="VSClear.cpp">
+      <Filter>14VS清理</Filter>
+    </ClCompile>
+    <ClCompile Include="HidePretend.cpp">
+      <Filter>15隐藏伪装代码</Filter>
+    </ClCompile>
+    <ClCompile Include="Share.cpp">
+      <Filter>16加壳</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherFunction.cpp">
+      <Filter>17技术功能窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherCode.cpp">
+      <Filter>18技术功能部分代码</Filter>
+    </ClCompile>
+    <ClCompile Include="HashAndCrypt.cpp">
+      <Filter>19加密Hash窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyCord.cpp">
+      <Filter>20按键记录窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMonitor.cpp">
+      <Filter>21文件监控窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteCmd.cpp">
+      <Filter>22远控CMD客户端</Filter>
+    </ClCompile>
+    <ClCompile Include="MySocket.cpp">
+      <Filter>23套接字</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="05我的工具.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\05我的工具.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="望峰.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My05.rc2" />
+    <None Include="res\myrc2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\希望峰截图.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="aplib.lib">
+      <Filter>16加壳</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
