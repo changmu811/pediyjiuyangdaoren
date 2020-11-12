@@ -17,7 +17,7 @@ BOOL EnbalePrivileges(HANDLE hProcess, const char *pszPrivilegesName)
 	TOKEN_PRIVILEGES tokenPrivileges = { 0 };
 	BOOL bRet = FALSE;
 	DWORD dwRet = 0;
-
+	
 
 	// 打开进程令牌并获取具有 TOKEN_ADJUST_PRIVILEGES 权限的进程令牌句柄
 	bRet = ::OpenProcessToken(hProcess, TOKEN_ALL_ACCESS, &hToken);

@@ -124,7 +124,7 @@ NTSTATUS MyZwQuerySystemInformation(
 	{
 		return status;
 	}
-
+	
 	// 调用原函数 ZwQuerySystemInformation
 	status = ZwQuerySystemInformation(SystemInformationClass, SystemInformation,
 		SystemInformationLength, ReturnLength);

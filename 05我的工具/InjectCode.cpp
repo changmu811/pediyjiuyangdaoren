@@ -1,11 +1,12 @@
 #include "stdafx.h"
+#include <tchar.h>
 #include "InjectCode.h"
 #include <TlHelp32.h>
 
 // 错误提示
 void ShowError(const wchar_t* szBuf)
 {
-	::MessageBox(0, szBuf, L"错误提示", 0);
+	::MessageBoxW(0, szBuf, L"错误提示", 0);
 }
 // 全局单一注入
 void Inject(const wchar_t* dllPath, DWORD dwPid)

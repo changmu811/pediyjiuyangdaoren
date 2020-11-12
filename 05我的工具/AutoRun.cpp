@@ -7,6 +7,7 @@
 #include "05我的工具.h"
 #include "AutoRunCode.h"
 #include <locale.h>
+#include <tchar.h>
 
 // AutoRun 对话框
 
@@ -29,6 +30,7 @@ AutoRun::AutoRun(CWnd* pParent /*=nullptr*/)
 	}
 	wcscat_s(Path, MAX_PATH, L"ServiceAuto.exe");
 	serPath = Path;
+	
 }
 
 AutoRun::~AutoRun()

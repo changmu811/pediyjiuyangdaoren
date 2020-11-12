@@ -76,7 +76,7 @@ UINT FileMonitor::ThreadProc(LPVOID)
 	while (true)
 	{
 		// 获取监控目录句柄
-		HANDLE m_hHandle = CreateFile(L"D:\\图片\\",
+		HANDLE m_hHandle = CreateFileW(L"D:\\图片\\",
 			FILE_LIST_DIRECTORY,        // 要监视目录必须为这个宏
 			FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING,
 			FILE_FLAG_BACKUP_SEMANTICS, // 获取目录句柄需要这个宏
