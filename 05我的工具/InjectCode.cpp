@@ -60,7 +60,9 @@ void Inject(const wchar_t* dllPath, DWORD dwPid)
 // 全局单一卸载
 void Enject(const wchar_t* dllPath, DWORD dwPid)
 {
-	MODULEENTRY32 me = { sizeof(MODULEENTRY32) };
+	//MODULEENTRY32 me = { sizeof(MODULEENTRY32) };
+	MODULEENTRY32 me = {0};
+	me.dwSize = sizeof(MODULEENTRY32);
 	//遍历每个进程的模块
 	HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE, dwPid);
 	if (INVALID_HANDLE_VALUE == hSnap)

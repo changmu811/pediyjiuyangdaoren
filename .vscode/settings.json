@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "clangd.arguments": [
+        "--pch-storage=memory"
+    ],
+    "clangd.path": "F:\\LLVM\\bin\\clangd"
+}
